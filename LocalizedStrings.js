@@ -13,8 +13,9 @@
  */
 'use strict';
 
-var localization = require('react-native').NativeModules.ReactLocalization;
-var interfaceLanguage = localization.language.replace(/_/g,'-');
+import { NativeModules, Platform } from 'react-native';
+var interfaceLanguage = Platform.OS === 'android' ? NativeModules.I18nManager.localeIdentifier.replace(/_/g,'-') : NativeModules.ReactLocalization.language.replace(/_/g,'-')
+
 class LocalizedStrings{
 
   _getBestMatchingLanguage(language, props){
