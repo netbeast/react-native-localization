@@ -1,6 +1,6 @@
 {
   "name": "react-native-localization",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "description": "Simple module to localize the ReactNative interface",
   "main": "LocalizedStrings.js",
   "types": "./lib/LocalizedStrings.d.ts",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stefalda/ReactNativeLocalization.git"
+    "url": "https://github.com/netbeast/react-native-localization.git"
   },
   "keywords": [
     "react-component",
@@ -21,7 +21,7 @@
   "author": "Stefano Falda <stefano.falda@gmail.com> (http://www.babisoft.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stefalda/ReactNativeLocalization/issues"
+    "url": "https://github.com/netbeast/react-native-localization/issues"
   },
-  "homepage": "https://github.com/stefalda/ReactNativeLocalization"
+  "homepage": "https://github.com/netbeast/react-native-localization"
 }
